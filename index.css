@@ -1,0 +1,52 @@
+body{
+    background-color: white;
+
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: lavender;
+    padding: 20px;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+.navbar li {
+    margin: 5px;
+    background-color: aliceblue;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+.navbar li:hover{
+    background-color: lavender;
+    cursor: pointer;
+}
+.main1{
+    text-align: center;
+    text-decoration: solid white;
+    color: white;
+    background-color:blue;
+}
+.main2{
+    background-color: peru
+    margin: 30px;
+    padding: 30px;
+    border-radius: 80px;
+    width: 100%;
+}
+.location{
+    background-image: url(hospital.jpg);
+    padding: 20px;
+    margin: 10px;
+}
+.nav{
+    background-color: aquamarine;
+    border: 10px;
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 200px;
+    content: initial;
+}
